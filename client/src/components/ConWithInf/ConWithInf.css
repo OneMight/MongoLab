@@ -1,0 +1,59 @@
+.con-inf{
+    display: flex;
+    flex-direction: row;
+    background-color: #2C2B2B;
+    border-radius: 20px;
+    width: 85%;
+}
+.image-div{
+    border-radius: 20px 0 0 20px;
+    padding: 25px;
+    background-color: #2C2B2B;
+    margin: auto;
+}
+.image-div>img{
+    border-radius: 100px;
+}
+.about-inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1F1F;
+    border: 1px solid #1F1F1F;
+    border-radius: 0 20px 20px 0  ;
+   
+}
+.title-div{
+    width: 95%;
+    text-align: center;
+    border-bottom: 1px solid #A8A8A8;
+}
+
+.inf-name{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #A8A8A8;
+    margin: 10px;
+}
+
+.desc-inf{
+    margin: 20px;
+    font-size: 20px;
+    text-align: justify;
+    color: #A8A8A8;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.accordion-collapse{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.accordion-collapse.open{
+    max-height: 400px;
+} 

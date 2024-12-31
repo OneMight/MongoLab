@@ -1,0 +1,65 @@
+.pilot-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.filters-and-pilots{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+.filters-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #523634;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 400px;
+    padding: 20px;
+}
+.filters-div > p,label{
+    font-size: 30px;
+    color: #ffffff;
+}
+.filters{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pilots-div{
+    background-color: #523634;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 40px;
+    padding: 20px;
+    width: 75%;
+}
+.error-Saved-Pilots{
+    margin: 50px 0;
+    font-size: 25px;
+}
+
+@media (max-width:768px) {
+    .filters-div{
+        width: 280px;
+    }
+    .filters-div > p,label{
+        font-size: 20px;
+        color: #ffffff;
+    }
+}

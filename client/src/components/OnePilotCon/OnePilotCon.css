@@ -1,0 +1,33 @@
+.title-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.con-inf{
+    text-decoration: none;
+}
+.title-div > img{
+    width: 80px;
+}
+.remove{
+    margin: 10px 0;
+}
+@media screen and (max-width: 768px) {
+    .con-inf{
+        width: 100%;
+        flex-direction: column;
+    }
+    .inf-name{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .title-div > img{
+        width: 50px;
+    }
+    .desc-inf{
+        font-size: 16px;
+    }
+}
